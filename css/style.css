@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f3f3f3;
-  color: #000;
+  background-color: #d4edc1; /* Verde pastel suave */
+  color: #000; /* Mantén el texto oscuro para que contraste */
 }
 
 /* === HEADER === */
@@ -55,6 +55,8 @@ nav a.active {
   opacity: 0;
   transform: translateY(20px);
   transition: 0.6s ease;
+  background-color: rgba(212, 237, 193, 0.8); /* Verde pastel semitransparente */
+  border-radius: 10px; /* Opcional, para suavizar */
 }
 
 .section.active {

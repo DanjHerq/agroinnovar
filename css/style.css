@@ -89,34 +89,20 @@ nav a.active {
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
-/* === FORMULARIO === */
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  max-width: 450px;
-  margin: 0 auto;
+.contact-section {
+  padding: 40px 20px;
+  background: #f5f5f5;
 }
 
-.contact-form input,
-.contact-form textarea {
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #bbb;
-  font-size: 16px;
+.contact-info p {
+  font-size: 18px;
+  margin: 8px 0;
 }
 
-.contact-form button {
-  padding: 12px;
-  background: #228B22;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.contact-form button:hover {
-  background: #006400;
+.map-container {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
 }
 
 /* === PIE DE PÁGINA === */
@@ -126,4 +112,31 @@ footer {
   background: #228B22;
   color: white;
   margin-top: 40px;
+}
+
+.inicio-hero {
+  position: relative;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.inicio-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.inicio-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.3); /* Fondo semi-transparente para mejor legibilidad */
 }
